@@ -1,0 +1,14 @@
+name: buildhook_example_example
+description: Runnable example that consumes the buildhook_example library and prints sum(a, b) for two CLI arguments.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  buildhook_example:
+    path: ../
+
+dev_dependencies:
+  lints: ^6.0.0

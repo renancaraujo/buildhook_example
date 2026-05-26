@@ -1,0 +1,20 @@
+name: buildhook_example
+description: A Dart library that calls a native C++ sum function compiled via CMake using a build hook.
+version: 1.0.0
+repository: https://github.com/renancaraujo/buildhook_example
+publish_to: none
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  hooks: ^1.0.0
+  code_assets: ^1.0.0
+  native_toolchain_cmake: ^0.2.5
+  ffi: ^2.1.4
+  logging: ^1.2.0
+  meta:
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
